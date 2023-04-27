@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/*? Simple Reset */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+* {
+	margin: 0;
+	font: inherit;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+input:focus::placeholder {
+	color: transparent;
+}
+
+input,
+textarea,
+button,
+select,
+a {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+img,
+svg {
+	margin: 0;
+	display: block;
+	max-width: 100%;
+}
+/*?---------------- */
+
+/*? Using local font-family */
+html {
+	@apply font-poppins text-xs font-bold text-offBlack caret-myPurple md:text-sm;
+}
+/*?---------------- */
+span {
+	@apply text-7xl italic font-extrabold;
+}
+section label {
+	@apply text-smokeyGrey tracking-[3px] leading-10;
+}
+input {
+	@apply text-3xl w-full p-4 border focus:border-myPurple rounded-xl focus-visible:outline focus-visible:outline-1 focus-visible:outline-myPurple
+	        md:w-36;
+}
+
+.footerLabel:after {
+	@apply content-[''] absolute top-1/2 -right-2 rotate-45 -translate-y-1/2 border-8 border-blue-500;
+}
