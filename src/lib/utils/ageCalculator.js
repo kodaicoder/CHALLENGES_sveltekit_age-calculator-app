@@ -14,7 +14,7 @@ export async function ageCalculator(year, month, day) {
 			ageMonths += 12;
 			if (ageDays < 0) {
 				ageMonths--;
-				const monthDays = new Date(today.getFullYear(), today.getMonth() - 1, 0).getDate();
+				const monthDays = new Date(today.getFullYear(), today.getMonth(), 0).getDate();
 				ageDays += monthDays;
 			}
 			//made left over month back to year

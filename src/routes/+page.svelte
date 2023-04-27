@@ -92,15 +92,15 @@
 	<div class="grid my-8 gap-2 md:my-4">
 		<div>
 			<span class="text-myPurple">{ageForYears}</span>
-			<span>&nbsp;years</span>
+			<h1>&nbsp;years</h1>
 		</div>
 		<div>
 			<span class="text-myPurple">{ageForMonths}</span>
-			<span>&nbsp;months</span>
+			<h1>&nbsp;months</h1>
 		</div>
 		<div>
 			<span class="text-myPurple">{ageForDays}</span>
-			<span>&nbsp;days</span>
+			<h1>&nbsp;days</h1>
 		</div>
 	</div>
 </div>

@@ -39,8 +39,9 @@ html {
 	@apply font-poppins text-xs font-bold text-offBlack caret-myPurple md:text-sm;
 }
 /*?---------------- */
+h1,
 span {
-	@apply text-7xl italic font-extrabold;
+	@apply text-7xl italic font-extrabold inline;
 }
 section label {
 	@apply text-smokeyGrey tracking-[3px] leading-10;
