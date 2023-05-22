@@ -31,7 +31,7 @@
 				<a
 					href="https://www.frontendmentor.io/profile/NutchaponMake"
 					target="_blank"
-					class=" underline underline-offset-2">KodaiCoder</a
+					class=" underline underline-offset-2">-KodaiCoder-</a
 				>.
 			</p>
 		</div>
